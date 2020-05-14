@@ -1,5 +1,11 @@
+.page-header {
+    font-size: 40px;
+    margin-inline-start: auto;
+    display: inline;
+}
+
 form {
-    margin: right, auto;
+    margin-left: auto;
     width: 400px;
     padding: 1em;
     border: 1px solid var(--black);
@@ -8,6 +14,7 @@ form {
 
 form div+div {
     margin-top: 1em;
+    display: inline-block;
 }
 
 label {
@@ -24,8 +31,7 @@ textarea {
 }
 
 input:focus,
-textarea:focus,
-label:focus {
+textarea:focus {
     border-color: var(--orange);
 }
 
