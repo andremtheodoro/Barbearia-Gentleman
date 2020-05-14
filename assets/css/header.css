@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+    #header {
+        height: 90px;
+        background-color: orange;
+    }
+
+    hr {
+        background-color: orangered;
+        height: 5px;
+        width: 70%;
+        align-items: center;
+    }
+
+    #header #logo {
+        margin-left: 100px;
+        max-width: 110px;
+    }
+
+    #btn-open, #btn-close {
+        display: none;
+    }
+
+    #header .menu ul {
+        width: 100%;
+        height: initial;
+        background-color: initial;
+        position: static;
+        right: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: 300px;
+        text-decoration: none;
+    }
+
+    #header .menu li {
+        flex: 1;
+        max-width: 150px;
+        list-style: none;
+    }
+}
