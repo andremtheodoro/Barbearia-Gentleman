@@ -8,20 +8,38 @@
     justify-content: center;
 }
 .service {
-    width: 95%;
+    width: 90%;
     flex-direction: column;
 }
 
 .service img {
     width: 100%;
 }
+details {
+    width: 100%;
+    z-index: 1;
+}
+details > summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.service-title {
+    font-size: 1.4em;
+}
+
+
 
 .description {
     min-height: 30px;
     padding: 5px;
     padding-left: 10px;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     /* background-color: goldenrod; */
     border: #6f6868 1px solid;
     margin-top: -4px;
@@ -30,5 +48,21 @@
 .detail {
     flex-direction: row;
     align-items: center;
-    justify-self: center;
+    justify-content: space-between;
+}
+
+.service-price {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 253px;
+}
+
+.money  {
+    font-weight: normal;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-left: 5px;
 }
