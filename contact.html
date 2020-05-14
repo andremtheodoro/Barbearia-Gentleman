@@ -44,23 +44,53 @@
 
         </div>
         <section class="formulario">
-            <form>
-                <div class="filds">
-                    <input type="text" name="name" id="name" placeholder="Digite o nome">
-                    <input type="text" name="Telefone" id="name" placeholder="Telefone">
-                    <input type="text" name="Data" id="name" placeholder="Data">
-                    <input type="text" name="Horario" id="name" placeholder="Horario">
-                    <select id="barbeiro">
-                        <option value="Barbeiro 0">Barbeiro</option>
-                        <option value="Barbeiro 1">Lucas</option>
-                        <option value="Barbeiro 2">Lucia</option>
-                        <option value="Barbeiro 3">Vera</option>
-                        <option value="Barbeiro 4">Luiz</option>
-                        <option value="Barbeiro 5">Sergio</option>
+            <form action="/pagina-processa-dados-do-form" method="post">
+
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel" />
+                </div>
+                <div>
+                    <label for="data">Agende o seu dia:</label>
+                    <input type="date" id="date" name="agendamento" />
+                </div>
+                <div>
+                    <label for="hour">Hora da beleza:</label>
+                    <input type="time" id="hora" name="Marcar o horário" />
+                </div>
+                <div>
+                    <label for="">Barbeiro:</label>
+                    <select required="required" name="Barbeiro">
+                        <option selected="selected" value="">Barbeiro</option>
+                        <option value="1">Marcio</option>
+                        <option value="2">Ralfe</option>
+                        <option value="3">Andreia</option>
+                        <option value="4">Joaquin</option>
+                        <option value="5">Fernanda</option>
+                        <option value="6">Suelen</option>
                     </select>
 
                 </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea class="fild" name="masage" placeholder="Digite a sua menasagem aqui"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+
             </form>
+
+
+            </div>
+
+            <ul>
+
+                </form>
+
         </section>
     </main>
 </body>
