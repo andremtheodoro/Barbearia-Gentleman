@@ -8,7 +8,8 @@
         background-color: orangered;
         height: 5px;
         width: 70%;
-        align-items: center;
+        border: 0;
+        border-radius: 10px;
     }
 
     #header #logo {
@@ -30,12 +31,18 @@
         flex-direction: row;
         justify-content: start;
         margin-left: 300px;
-        text-decoration: none;
+        align-items: center;
     }
 
     #header .menu li {
         flex: 1;
-        max-width: 150px;
+        min-width: 150px;
         list-style: none;
+        color: var(--white);
+    }
+
+    #header .menu a {
+        text-decoration: none;
+        color: var(--white);
     }
 }
