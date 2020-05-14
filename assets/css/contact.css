@@ -1,0 +1,17 @@
+#contact .page {
+    flex-direction: column;
+}
+
+#contact .page {
+    margin: 30px;
+    padding: 1em;
+    flex-direction: column;
+}
+
+#barbeiro,
+.filds {
+    border: var(--black) 1px solid;
+    width: 100%;
+    flex-direction: column;
+    right: auto;
+}
