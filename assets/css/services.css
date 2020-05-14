@@ -1,0 +1,34 @@
+.page {
+    flex-direction: column;
+}
+.services {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service {
+    width: 95%;
+    flex-direction: column;
+}
+
+.service img {
+    width: 100%;
+}
+
+.description {
+    min-height: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    /* background-color: goldenrod; */
+    border: #6f6868 1px solid;
+    margin-top: -4px;
+}
+
+.detail {
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
