@@ -7,13 +7,16 @@
     hr {
         background-color: orangered;
         height: 5px;
-        width: 70%;
-        align-items: center;
+        width: 55%;
+        border: 0;
+        border-radius: 10px;
     }
 
     #header #logo {
         margin-left: 100px;
         max-width: 110px;
+        position: absolute;
+        z-index: 3;
     }
 
     #btn-open, #btn-close {
@@ -30,12 +33,18 @@
         flex-direction: row;
         justify-content: start;
         margin-left: 300px;
-        text-decoration: none;
+        align-items: center;
     }
 
     #header .menu li {
         flex: 1;
-        max-width: 150px;
+        min-width: 150px;
         list-style: none;
+        color: var(--white);
+    }
+
+    #header .menu a {
+        text-decoration: none;
+        color: var(--white);
     }
 }
