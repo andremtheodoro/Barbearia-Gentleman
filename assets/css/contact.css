@@ -41,10 +41,10 @@ textarea {
     resize: vertical;
 }
 
-.button {
+#contact.page .button {
     padding-left: 90px;
 }
 
-button {
+#contact.page button {
     margin-top: .5em;
 }
