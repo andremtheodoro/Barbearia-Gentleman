@@ -1,0 +1,57 @@
+#gallery.page .page-header {
+    background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
+   
+}
+
+
+#gallery.page .images {
+    flex-direction: column;
+}
+
+#gallery.page .images img {
+    width: 100%;
+}
+
+
+
+@media (min-width:576px) {
+    #gallery.page .page-header {
+        background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
+
+    }
+ 
+}
+
+@media (min-width: 992px) {
+    
+    #gallery.page .page-header {
+        background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
+        background-position: 0px -15vw;
+        background-size: cover;
+        }
+
+    #gallery.page .images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    #gallery.page .images img {
+        width: 32vw;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        color: var(--white);
+    }
+
+    #gallery.page .page-header picture figcaption {
+    color: var(--white);
+    }
+
+
+
+ 
+}
