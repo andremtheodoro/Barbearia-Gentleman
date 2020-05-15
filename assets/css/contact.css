@@ -1,62 +1,10 @@
-<<<<<<< HEAD
-.page-header {
-    font-size: 40px;
-    margin-inline-start: auto;
-    display: inline;
-}
-
-form {
-    margin-left: auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid var(--black);
-    border-radius: 1em;
-}
-
-form div+div {
-    margin-top: 1em;
-    display: inline-block;
-}
-
-label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-input,
-textarea {
-    font: 1em sans-serif;
-    box-sizing: border-box;
-    border: 2px solid var(--black);
-}
-
-input:focus,
-textarea:focus {
-    border-color: var(--orange);
-}
-
-textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-}
-
-#contact.page .button {
-    padding-left: 90px;
-}
-
-#contact.page button {
-    margin-top: .5em;
-}
-=======
         body {
             margin: 0%;
             padding: 0%;
             box-sizing: border-box;
         }
         
-        #header #logo {
+        #contact #header #logo {
             width: 120px;
             transition: all 1s ease-in-out;
             right: calc(50vw - 30px);
@@ -135,4 +83,3 @@ textarea {
             box-sizing: border-box;
             border: 3px solid var(--orange);
         }
->>>>>>> d1d5ce96a1ea8ea35e2c06ed6ef87b63db394a40

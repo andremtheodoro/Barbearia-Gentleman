@@ -1,4 +1,31 @@
-@media (min-width: 1200px) {
+#header {
+    height: 25%;
+    background-image: url('/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    width: 100%;
+    
+}
+
+#header button {
+    background: none;
+    border: none;
+    padding: 13px;
+    outline: none;
+}
+
+#header .menu {
+    
+}
+
+@media (min-width: 576px) {
+
+
+}
+
+
+
+/* @media (min-width: 1200px) {
     #header {
         height: 90px;
         background-color: orange;
@@ -47,4 +74,4 @@
         text-decoration: none;
         color: var(--white);
     }
-}
+} */
