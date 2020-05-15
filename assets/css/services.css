@@ -1,87 +1,251 @@
-#contact.page {
+
+#services.page {
     flex-direction: column;
 }
-#contact.page .services {
+#services.page header {
+    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg");
+    background-size: cover;
+    filter: brightness(0.5);
+    color: var(--white);
+}
+
+#services.page .page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+#services.page .page-header h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 150px 0 10px 20px;
+    font-size: 3em;
+    line-height: .7em;    
+}
+
+#services.page .page-header h1 span{
+    margin: 0;
+    font-size: .5em;
+    color: var(--orange);
+    font-weight: normal;
+}
+
+#services.page .page-header hr {
+    margin: 0;
     width: 100%;
+    height: 5px;
+    border:none;
+    border-radius: 0;
+    background-color: var(--orange)
+}
+
+#services.page .services {
+    width: 100%;
+    padding-top: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#contact.page .service {
+
+#services.page .service {
     width: 90%;
     flex-direction: column;
 }
 
-#contact.page .service img {
+#services.page .service-bar {
+    height: 45px;
+    background-color: var(--orange);
+    border-radius: 5px 5px 0px 0px;
+}
+
+#services.page .service img {
     width: 100%;
 }
-#contact.page details {
+
+
+#services.page details {
     width: 100%;
     z-index: 1;
 }
-#contact.page details > summary {
+
+details
+{
+    transition: height .5s ease;
+    overflow: hidden;
+}
+
+summary:hover {
+    background-color: var(--card-agend);
+}
+
+details:not([open])
+{
+    height: 50px;
+}
+
+details[open]
+{
+    height: 193px;
+}
+  
+#services.page details > summary {
     display: flex;
     align-items: start;
     cursor: pointer;
     list-style: none;
+    color: var(--white);
 }
 
-#contact.page details > summary::-webkit-details-marker {
+#services.page .description {
+    min-height: 30px;
+    line-height: 45px;
+    margin-bottom: 45px;
+    background-color: var(--orange);
+    margin-top: -4px;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#services.page details > summary::-webkit-details-marker {
     display: none;
 }
 
-#contact.page .service-title {
-    font-size: 1.4em;
+#services.page .description .service-title {
+    font-size: 1.7em;
+    padding-left: 15px;
 }
 
-
-
-#contact.page .description {
-    min-height: 30px;
-    padding: 5px;
-    padding-left: 10px;
-    line-height: 30px;
-    margin-bottom: 45px;
-    /* background-color: goldenrod; */
-    border: #6f6868 1px solid;
-    margin-top: -4px;
-}
-
-#contact.page .detail {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#contact.page .service-price {
+#services.page .description .service-price {
     display: flex;
     flex-direction: row;
     flex: 1;
     justify-content: flex-end;
     padding-right: 10px;
 }
-#contact.page .service-price p {
+#services.page .description .service-price p {
     margin: 0;
 }
 
-#contact.page .money  {
+#services.page .description .service-price .money  {
     font-weight: normal;
 }
 
-#contact.page .price {
+#services.page .price {
     font-weight: bold;
     font-size: 1.3em;
     padding-left: 5px;
 }
 
-#contact.page .service-2 {
+
+#services.page .service-details {
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
-    justify-content: flex-end;
-    background-image: url("/assets/images/photos/adib-harith-fadzilah-LCXQC1kudXE-unsplash.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 245px;
+    padding: 15px;
+    background-color: var(--white);
+    border: var(--orange) 2px solid;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#services.page .service-details p {
+    margin: 0;
+}
+
+#services.page .service-details p {
+    margin: 0;
+    line-height: normal;
+    font-size: 1.1em;
+}
+
+#services.page .detail {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#services.page .service-details .detail p {
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#services.page .service-details .detail a {
+    background-color: var(--black);
+    border-radius: 10px;
+    padding: 2px 30px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#services.page .service-details .detail a:hover {
+    background-color: var(--a-agenda);
+}
+
+
+
+@media (min-width: 576px) {
+    #services.page .page-header h1 {
+        padding: 100px 0 15px 40px;
+        font-size: 3.5em;
+        line-height: .7em;    
+    }
     
+    #services.page .page-header h1 span{
+        font-size: .5em;
+    }
+
+
+    #services.page .services {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #services.page .services .service {
+        width: 45vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #services.page .page-header h1 {
+        padding: 150px 0 15px 40px;
+        font-size: 4em;
+        line-height: .7em;    
+    }
+    
+    #services.page .page-header h1 span{
+        font-size: .6em;
+    }
+
+    #services.page .services {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #services.page .services .service {
+        width: 30vw;
+        margin: 10px;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1200px) {
+    #services.page .page-header h1 {
+        padding: 130px 0 15px 60px;
+        font-size: 4.5em;
+        line-height: .7em;    
+    }
+    
+    #services.page .page-header h1 span{
+        font-size: .6em;
+    }
 }
