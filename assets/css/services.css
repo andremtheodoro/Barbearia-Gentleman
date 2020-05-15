@@ -1,40 +1,42 @@
-.page {
+#contact.page {
     flex-direction: column;
 }
-.services {
+#contact.page .services {
     width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.service {
+#contact.page .service {
     width: 90%;
     flex-direction: column;
 }
 
-.service img {
+#contact.page .service img {
     width: 100%;
 }
-details {
+#contact.page details {
     width: 100%;
     z-index: 1;
 }
-details > summary {
+#contact.page details > summary {
+    display: flex;
+    align-items: start;
     cursor: pointer;
     list-style: none;
 }
 
-details > summary::-webkit-details-marker {
+#contact.page details > summary::-webkit-details-marker {
     display: none;
 }
 
-.service-title {
+#contact.page .service-title {
     font-size: 1.4em;
 }
 
 
 
-.description {
+#contact.page .description {
     min-height: 30px;
     padding: 5px;
     padding-left: 10px;
@@ -45,24 +47,41 @@ details > summary::-webkit-details-marker {
     margin-top: -4px;
 }
 
-.detail {
+#contact.page .detail {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.service-price {
-    position: absolute;
-    margin-top: -15px;
-    margin-left: 253px;
+#contact.page .service-price {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+#contact.page .service-price p {
+    margin: 0;
 }
 
-.money  {
+#contact.page .money  {
     font-weight: normal;
 }
 
-.price {
+#contact.page .price {
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.3em;
     padding-left: 5px;
+}
+
+#contact.page .service-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-end;
+    background-image: url("/assets/images/photos/adib-harith-fadzilah-LCXQC1kudXE-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 245px;
+    
 }
