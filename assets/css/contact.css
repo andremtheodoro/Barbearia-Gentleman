@@ -1,20 +1,40 @@
-.page-header {
+    body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#contact {
+    width: 98vw;
+    height: 120vh;
+    background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
+    background-size: cover;
+    background-position: 0px -20px;
+    overflow: hidden;
+}
+
+#contact .page-header {
     font-size: 40px;
     margin-inline-start: auto;
     display: inline;
 }
 
 form {
-    margin-left: auto;
+    margin: 0, auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid var(--black);
+    border: 1px solid var(--orange);
     border-radius: 1em;
 }
 
 form div+div {
     margin-top: 1em;
     display: inline-block;
+}
+
+form>label {
+    font-size: 50em;
+    color: var(--orange);
 }
 
 label {
@@ -27,7 +47,7 @@ input,
 textarea {
     font: 1em sans-serif;
     box-sizing: border-box;
-    border: 2px solid var(--black);
+    border: 3px solid var(--orange);
 }
 
 input:focus,
@@ -42,9 +62,23 @@ textarea {
 }
 
 .button {
-    padding-left: 90px;
+    padding-left: 100px;
 }
 
 button {
     margin-top: .5em;
+    border-color: var(--black);
+    border-radius: 1em;
 }
+
+select {
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 3px solid var(--orange);
+}
+
+@media (min-width: 576px) {
+    #contact.page header {
+        background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
+        background-position: 0px -22vw;
+    }
