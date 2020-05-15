@@ -32,15 +32,14 @@
             </header>
 
             <p>
-                <span class="show-desktop">Agende a sua visita</span>
-                <span class="hide-desktop">Contato</span>
+                <span>Agende a sua visita</span>
             </p>
 
         </div>
         <section class="formulario">
             <form action="/send" method="post" target="_blank" enctype="multipart/form-data">
 
-                <div>
+                <div class="nome">
                     <label for="name">Nome:</label>
                     <input type="text" id="name" />
                 </div>
@@ -49,12 +48,12 @@
                     <input type="tel" id="tel" />
                 </div>
                 <div>
-                    <label for="data">Agende o seu dia:</label>
+                    <label for="date">Agende o seu dia:</label>
                     <input type="date" id="date" name="agendamento" />
                 </div>
                 <div>
                     <label for="hour">Hora da beleza:</label>
-                    <input type="time" id="hora" name="Marcar o horário" />
+                    <input type="hour" id="hour" name="Marcar o horário" />
                 </div>
                 <div>
                     <label for="">Barbeiro:</label>
@@ -66,7 +65,10 @@
                         <option value="4">Joaquin</option>
                         <option value="5">Fernanda</option>
                         <option value="6">Suelen</option>
+                                                         
+                    
                     </select>
+
 
                 </div>
                 <div>
@@ -74,7 +76,7 @@
                     <textarea class="fild" name="masage" placeholder="Digite a sua menasagem aqui"></textarea>
                 </div>
                 <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
+                    <button type="">Enviar sua mensagem</button>
 
             </form>
 
