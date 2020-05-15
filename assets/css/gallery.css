@@ -1,5 +1,6 @@
 #gallery.page .page-header {
     background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
+    margin-top: 100px;
    
 }
 
@@ -10,6 +11,10 @@
 
 #gallery.page .images img {
     width: 100%;
+}
+
+#gallery.page  .page-header, h1 {
+    flex-direction: column;
 }
 
 
