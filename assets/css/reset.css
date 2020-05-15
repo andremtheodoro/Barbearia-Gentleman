@@ -4,16 +4,13 @@
 }
 
 body, div, article, aside, footer, header,
-main, nav, section, ul, ol, li, button, figure{
+main, nav, section, ul, ol, li, button, figure, select, option, p{
     display: flex;
 }
-body {
-    margin:0;
-    flex-direction: column;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-}
+
+
+
+
 
 @media (min-width: 1200px) {
     .show-desktop {

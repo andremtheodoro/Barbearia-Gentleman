@@ -26,66 +26,53 @@
         </nav>
     </header>
     <main id="contact" class="page">
-        <div class="page-header">
-            <header>
-
-            </header>
-
-            <p>
-                <span>Agende a sua visita</span>
-            </p>
-
+        <div class="page-header"></div>
+            
         </div>
         <section class="formulario">
-            <form action="/send" method="post" target="_blank" enctype="multipart/form-data">
-
-                <div class="nome">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" />
+            <header>
+                
+        </header>
+            <form class="formulario" method="POST">
+                <p>Marque um horário</p>
+                <div class="fields">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder="Digite o Nome">
+                        <label  for="name">Nome Completo</label> 
+                    </div>
+                    <div class="field">
+                        <input type="text" name="tel" id="tel" placeholder="Digite o telefone" />
+                        <label for="tel">Telefone:</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="tel">Telefone:</label>
-                    <input type="tel" id="tel" />
-                </div>
-                <div>
-                    <label for="date">Agende o seu dia:</label>
+                <div class="field">
                     <input type="date" id="date" name="agendamento" />
+                    <label for="date">Agende o seu dia:</label>
+                </div>
+                <div class="field">
+                    <input type="time" id="time" name="Marcar o horário" />
+                    <label for="time">Hora da beleza:</label>
                 </div>
                 <div>
-                    <label for="hour">Hora da beleza:</label>
-                    <input type="hour" id="hour" name="Marcar o horário" />
-                </div>
-                <div>
-                    <label for="">Barbeiro:</label>
                     <select required="required" name="Barbeiro">
-                        <option selected="selected" value="">Barbeiro</option>
-                        <option value="1">Marcio</option>
-                        <option value="2">Ralfe</option>
-                        <option value="3">Andreia</option>
-                        <option value="4">Joaquin</option>
-                        <option value="5">Fernanda</option>
-                        <option value="6">Suelen</option>
-                                                         
-                    
-                    </select>
-
-
-                </div>
-                <div>
-                    <label for="msg">Mensagem:</label>
-                    <textarea class="fild" name="masage" placeholder="Digite a sua menasagem aqui"></textarea>
-                </div>
-                <div class="button">
-                    <button type="">Enviar sua mensagem</button>
-
+                    <option selected="selected" value="">Barbeiro</option>
+                    <option value="1">Marcio</option>
+                    <option value="2">Ralfe</option>
+                    <option value="3">Andreia</option>
+                    <option value="4">Joaquin</option>
+                    <option value="5">Fernanda</option>
+                    <option value="6">Suelen</option>
+                </select>
+            </div>
+                <button type="submit">Enviar</button>
+            </div>
+                
             </form>
 
 
             </div>
 
             <ul>
-
-                </form>
 
         </section>
     </main>
