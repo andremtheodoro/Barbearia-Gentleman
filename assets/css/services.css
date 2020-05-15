@@ -5,7 +5,8 @@
 #services.page header {
     background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg");
     background-size: cover;
-    filter: brightness(0.5);
+    background-position: center;
+    /* filter: brightness(0.5); */
     color: var(--white);
 }
 
@@ -85,7 +86,7 @@ details:not([open])
 
 details[open]
 {
-    height: 193px;
+    height: 220px;
 }
   
 #services.page details > summary {
@@ -141,6 +142,7 @@ details[open]
     display: flex;
     flex-direction: column;
     padding: 15px;
+    height: 170px;
     background-color: var(--white);
     border: var(--orange) 2px solid;
     border-radius: 0px 0px 5px 5px;
@@ -158,8 +160,10 @@ details[open]
 
 #services.page .detail {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
+    padding: 10px 0px;
+    flex: 1;
 }
 
 #services.page .service-details .detail p {
@@ -195,6 +199,13 @@ details[open]
         font-size: .5em;
     }
 
+    details[open] {
+        height: 250px;
+    }
+
+    #services.page .service-details {
+        height: 200px;
+    }
 
     #services.page .services {
         width: 100%;
@@ -221,6 +232,14 @@ details[open]
     
     #services.page .page-header h1 span{
         font-size: .6em;
+    }
+
+    details[open] {
+        height: 220px;
+    }
+
+    #services.page .service-details {
+        height: 170px;
     }
 
     #services.page .services {
