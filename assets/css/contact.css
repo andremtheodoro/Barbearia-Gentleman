@@ -13,9 +13,9 @@
 }
 .field label, 
 .field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
+    padding-left: 5px;
+    font-size: 1.0em;
+    display: inline-block;
     width: 100%;
     
 
@@ -25,7 +25,7 @@ input[type=time],
 textarea,
 input[type=date],
 select{
-    width: 100%;
+    width: 100vw;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
@@ -33,37 +33,25 @@ select{
     border: 1px solid;
     outline: none;
     border-color: var(--orange);
+    background-color: var(--orange);
 }
 
 select {
-    width: 50%;
-    padding-left: 10px;
+    width: 100vw;
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
     width: 100%;
 }
 
-#contact #header {
-    background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    right: 3px;
-    width: 30vw; 
-    height: 70%; 
-    margin:0,0,0,1px;
-    margin-right: 20px;
-    
-                
-}
 
-textarea{
+textarea {
     line-height: 20px;
     padding: 10px;
     height: 90px;
     resize: none;
+   
+
 }
 input[type=submit]{
     display: block;
