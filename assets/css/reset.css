@@ -11,11 +11,10 @@ main, nav, section, ul, ol, li, button, figure, select, option, p{
 body {
     margin: 0;
     flex-direction: column;
+    font-family: 'Marcellus-SC';
+    font-style: normal;
+    font-weight: 400;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> eca234b710a6b831e2634ed4f75e76f1cf109242
 
 
 
