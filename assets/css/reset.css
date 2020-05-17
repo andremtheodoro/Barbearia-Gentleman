@@ -8,7 +8,10 @@ main, nav, section, ul, ol, li, button, figure, select, option, p{
     display: flex;
 }
 
-
+body {
+    margin: 0;
+    flex-direction: column;
+}
 
 
 
