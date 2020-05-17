@@ -3,8 +3,7 @@
     background-image: url('/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg');
     background-size: cover;
     opacity: 0.6;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 #header button {
@@ -15,7 +14,7 @@
 }
 
 #header .menu {
-    
+
 }
 
 @media (min-width: 576px) {

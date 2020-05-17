@@ -68,11 +68,11 @@
             resize: vertical;
         }
         
-        .button {
+        #contact .button {
             padding-left: 100px;
         }
         
-        button {
+        #contact button {
             margin-top: .5em;
             border-color: var(--black);
             border-radius: 1em;
