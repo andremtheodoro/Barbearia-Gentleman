@@ -27,7 +27,6 @@
 #services.page .page-header h1 span{
     margin: 0;
     font-size: .5em;
-    color: var(--orange);
     font-weight: normal;
 }
 
@@ -54,13 +53,14 @@
 }
 
 #services.page .service-bar {
-    height: 45px;
+    height: 30px;
     background-color: var(--orange);
     border-radius: 5px 5px 0px 0px;
 }
 
 #services.page .service img {
     width: 100%;
+    border: var(--orange) 2px solid;
 }
 
 
@@ -254,6 +254,10 @@ details[open]
         width: 30vw;
         margin: 10px;
         flex-direction: column;
+    }
+
+    #services.page .description {
+        margin-bottom: 10px;
     }
 }
 
