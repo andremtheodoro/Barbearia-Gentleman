@@ -1,9 +1,7 @@
 #header {
     height: 25%;
-    background-image: url('/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg');
-    background-size: cover;
-    opacity: 0.6;
     width: 100%;
+    position: absolute;
 }
 
 #header button {
