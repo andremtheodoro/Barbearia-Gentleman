@@ -4,57 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gentleman</title>
+    <title>Gentleman - Contato</title>
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
+        <div id="overlay" data-close="menu"></div>
+        <img src="assets/images/logo/Gentleman.svg" id="logo" alt="Logo" />
 
-    </header>  
-            
+        <button type="button" id="btn-open">
+            <img src="assets/images/menu-black-18dp.svg" alt="menu">
+        </button>
+
+        <nav class="menu">
+            <div>
+                <button type="button" id="btn-close" data-close="menu">
+                    <img src="assets/images/close-black-18dp.svg" alt="close">
+                </button>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services">Serviços</a></li>
+                    <li><a href="/contact">Contatos</a></li>
+                    <li><a href="/gallery">Galeria</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr class="barbershop">
     <main id="contact" class="page">
+
         <div class="page-header">
-        <form class="formulario" method="post"> 
-        <p> Agende o seu Horário</p>
-        
-        <div class="field">
-            <label for="nome">Seu Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="" required>
+            <header>
+                <h1>
+                    <span>Agende a</span>
+                    SUA VISITA
+                </h1>
+            </header>
+            <hr />
         </div>
-        
-        <div class="field">
-            <label for="telefone">Seu Telefone:</label>
-            <input type="text" id="telefone" name="telefone" placeholder="">
-        </div>
- 
-        <div class="field">
-            <label for="time">Hora da Belaza:</label>
-            <input type="time" id="time" name="time" placeholder="Escolha o seu horário" required>
-        </div>        
-        <div class="field">
-            <label for="date">Esolha o dia:</label>
-            <input type="date" id="date" name="date" placeholder="Escolha o seu horário" required>
-        </div>
-        
-        <div class="field">
-            <label for="">Barbeiro:</label>
-            <select required="required" name="Barbeiro">
-            <option selected="selected" value="">Barbeiro</option>
-            <option value="1">Marcio</option>
-            <option value="2">Ralfe</option>
-            <option value="3">Andreia</option>
-            <option value="4">Joaquin</option>
-            <option value="5">Fernanda</option>
-            <option value="6">Suelen</option>
-        </select>
-    </div>
-    <div class="field">
-        <label for="mensagem">Sua mensagem:</label>
-        <textarea name="mensagem" id="mensagem" placeholder=></textarea>
-    </div>
-        <input type="submit" name="acao" value="Enviar">
-    </form>
-</main>
+
+        <section>
+            <form class="Cformulario" method="post">
+
+                <p> Agende um Horário</p>
+
+                <div class="Cfield">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div class="Cfield">
+                    <label for="telefone">Seu Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+
+                <div class="Cfield">
+                    <label for="date">Agende o seu dia:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div class="Cfield">
+                    <label for="time">Hora da Beleza:</label>
+                    <input type="time" id="time" name="time">
+                </div>
+
+                <div class="Cfield">
+                    <label for="Barbeiro">Barbeiro:</label>
+                    <select id="Barbeiro" name="Barbeiro">
+                        <option selected="selected" value=""></option>
+                        <option value="1">Marcio</option>
+                        <option value="2">Ralfe</option>
+                        <option value="3">Andreia</option>
+                        <option value="4">Joaquin</option>
+                        <option value="5">Fernanda</option>
+                        <option value="6">Suelen</option>
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <textarea class="message" id="message"></textarea>
+                    <label for="message"></label>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </section>
+
+         <div class="Cimg"></div>
+
+    </main>
+    
 </body>
+
 </html>
