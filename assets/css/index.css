@@ -1,6 +1,6 @@
 @import 'variables.css';
 @import 'reset.css';
-@import 'open-sans.css';
+@import 'marcellus.css';
 @import 'header.css';
 @import 'footer.css';
 @import 'gallery.css';
@@ -8,3 +8,5 @@
 @import 'home.css';
 @import 'services.css';
 @import 'error.css';
+
+

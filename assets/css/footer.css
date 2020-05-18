@@ -1,0 +1,88 @@
+ #footer {
+    width: 100%;
+    position: relative;
+    background-image: url('/assets/images/index/andi-whiskey-Mz_BqbdUDH0-unsplash2.jpg');
+    background-size: cover;
+    color: var(--white);
+    flex-direction: column;
+    padding: 2em;
+   
+
+}
+
+ #footer button {
+    position: absolute;
+    right: 15px;
+    background: var(--white);
+    color: var(--black);
+    box-shadow: var(--black) 0 3px 6px;
+    border-radius: 50%;
+    margin-top: -5.5em;
+    z-index: 1;
+    cursor: pointer;
+}  
+
+#footer button:hover {
+    background-color: var(--white);
+}
+
+
+#footer .columns {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#footer .links {
+    display: none;
+}
+
+#footer ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+#footer ul li, .title{
+    list-style: none;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#footer ul li, .email{
+    list-style: none;
+    font-size: 18px;
+    margin-left: -24px;
+    margin-top: -4px;
+}
+
+#footer .network {
+    align-items: center;
+    padding: 1em;
+   
+    
+}
+
+#footer .network a{
+    margin-right: .1em;
+    width: 55px;
+    height: 20px;
+
+}
+
+#footer .network a:hover {
+    color: var(--white);
+}
+
+#footer p {
+    align-items: center;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#footer .down {
+    margin-top: 20px;
+}
