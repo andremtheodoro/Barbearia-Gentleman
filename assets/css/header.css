@@ -24,13 +24,7 @@
         background-position: 0px -201px;
     }
 
-    hr {
-        height: 12px;
-        width: 100%;
-        background-color: var(--orange);
-        border: none;
-        margin: 0;
-    }
+    
 
     #header .menu #logo {
         max-width: 130px;
