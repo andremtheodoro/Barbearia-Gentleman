@@ -1,65 +1,53 @@
-.formulario{
+.Cformulario{
     width: 400px;
     padding: 30px;
-    
+    border:1px solid #131515;
+    border-radius: 5px;
+    position: absolute;
+    float: left;
 }
-.formulario p{
+.Cformulario p{
     width: 100%;
     font-size: 1.5em;
 }
-.field{
+.Cfield, .Cfield1, .Cfield2,select{
     width: 100%;
     margin: 15px 0;
 }
-.field label, 
-.field span{
-    padding-left: 5px;
-    font-size: 1.0em;
-    display: inline-block;
-    width: 100%;
-    
-
-}
-input[type=text],
-input[type=time],
-textarea,
-input[type=date],
+.Cfield label, 
+.Cfield span,
+.Cfield1 label,
+.Cfield1 span
+.Cfield2 span,
+.Cfield2 label,
 select{
-    width: 100vw;
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: inline;
+        
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid;
+    border: 1px solid #cd6900;
     outline: none;
-    border-color: var(--orange);
-    background-color: var(--orange);
 }
 
-select {
-    width: 100vw;
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-
-
-    
-                
-
-
-textarea{
+textarea {
     line-height: 20px;
     padding: 10px;
     height: 90px;
     resize: none;
-   
-
 }
 input[type=submit]{
     display: block;
-    background-color: var(--orange);
+    background-color: #ccc;
     height: 35px;
     border: none;
     outline: 0;
@@ -67,5 +55,24 @@ input[type=submit]{
     width: 100px;
     margin: 0 auto;
     text-align: center;
-    border-radius: 18px;
+    border-radius: 15px;
 }
+.Cfield1, .Cfield2,select {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #cd6900;
+    outline: none;
+    display: block;;
+}
+    .Cpage {
+    background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 5em;
+    justify-content: flex-end;
+    }
+    

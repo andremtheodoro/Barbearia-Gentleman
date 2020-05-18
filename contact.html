@@ -4,57 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gentleman</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Gentleman - Contato</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
-<body>
+<body >
     <header>
 
-    </header>  
-            
+    </header>
+
     <main id="contact" class="page">
-        <div class="page-header">
-        <form class="formulario" method="post"> 
-        <p> Agende o seu Horário</p>
+    <header>  
         
-        <div class="field">
-            <label for="nome">Seu Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="" required>
-        </div>
-        
-        <div class="field">
-            <label for="telefone">Seu Telefone:</label>
-            <input type="text" id="telefone" name="telefone" placeholder="">
-        </div>
- 
-        <div class="field">
-            <label for="time">Hora da Belaza:</label>
-            <input type="time" id="time" name="time" placeholder="Escolha o seu horário" required>
-        </div>        
-        <div class="field">
-            <label for="date">Esolha o dia:</label>
-            <input type="date" id="date" name="date" placeholder="Escolha o seu horário" required>
-        </div>
-        
-        <div class="field">
-            <label for="">Barbeiro:</label>
-            <select required="required" name="Barbeiro">
-            <option selected="selected" value="">Barbeiro</option>
-            <option value="1">Marcio</option>
-            <option value="2">Ralfe</option>
-            <option value="3">Andreia</option>
-            <option value="4">Joaquin</option>
-            <option value="5">Fernanda</option>
-            <option value="6">Suelen</option>
-        </select>
-    </div>
-    <div class="field">
-        <label for="mensagem">Sua mensagem:</label>
-        <textarea name="mensagem" id="mensagem" placeholder=></textarea>
-    </div>
-        <input type="submit" name="acao" value="Enviar">
-    </form>
+        <form class="Cformulario" method="post">
+            <p> Agende um Horário</p>
+
+            <div class="Cfield">
+               seu nome <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+
+            <div class="Cfield">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="Cfield1">
+                <label for="datetime">Marque o seu dia:</label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+            </div>
+
+            <div>
+                <select required="required" name="Barbeiro">
+                    <option selected="selected" value="">Barbeiro</option>
+                    <option value="1">Marcio</option>
+                    <option value="2">Ralfe</option>
+                    <option value="3">Andreia</option>
+                    <option value="4">Joaquin</option>
+                    <option value="5">Fernanda</option>
+                    <option value="6">Suelen</option>
+                </select>
+            </div>
+                <div class="Cpage"></div>
+            <div class="Cfield">
+                
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+</body>
+
+</html>
+</section>
+</header>
+
+</div>
+
 </main>
 </body>
+
 </html>

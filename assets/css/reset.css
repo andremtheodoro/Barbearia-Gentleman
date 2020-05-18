@@ -12,6 +12,8 @@ main, nav, section, ul, ol, li, button, figure, select, option, p{
 
 
 
+
+
 @media (min-width: 1200px) {
     .show-desktop {
         display:flex;
