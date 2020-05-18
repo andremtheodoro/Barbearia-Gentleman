@@ -28,17 +28,22 @@
 
                 <div class="Cfield">
                     <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome*" required>
+                    <input type="text" id="nome" name="nome">
                 </div>
 
                 <div class="Cfield">
                     <label for="telefone">Seu Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                    <input type="tel" id="telefone" name="telefone">
                 </div>
 
                 <div class="Cfield">
-                    <label for="datetime-local">Dia e Horário da Beleza:</label>
-                    <input type="datetime-local" id="datetime-local" name="datetime-local" required>
+                    <label for="date">Agende o seu dia:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div class="Cfield">
+                    <label for="time">Hora da Beleza:</label>
+                    <input type="time" id="time" name="time">
                 </div>
 
                 <div class="Cfield">
@@ -55,12 +60,13 @@
 
                 </div>
 
-                <div class="Cfield">
-                    <label for="mensagem">Sua mensagem:</label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                <div class="field">
+
+                    <textarea class="message" id="message"></textarea>
+                    <label for="message"></label>
                 </div>
 
-                <input type="submit" name="ação" value="Enviar">
+                <button type="submit">Enviar</button>
             </form>
 
         </section>
