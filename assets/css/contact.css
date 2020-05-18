@@ -8,6 +8,7 @@
     background-position: center;
     /* filter: brightness(0.5); */
     color: var(--white);
+    
 }
 
 #contact.page .page-header {
@@ -41,10 +42,10 @@
 .Cformulario{
     width: 400px;
     padding: 30px;
-    
     border-radius: 5px;
     position: absolute;
     float: left;
+    opacity: .2;
 }
 .Cformulario p{
     width: 100%;
@@ -86,14 +87,17 @@ textarea {
     background-color: var(--white);
     border: 1px solid var(--black) ;
 }
-    .Cpage {
+    .Cimg {
     background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
     right: 0%;
     width: 50%;
     height: 90%;
     justify-content: flex-end;
+    float: right;
+   
     
 }
 form button {
