@@ -5,64 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gentleman - Contato</title>
-    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
-<body >
-    <header>
-
-    </header>
-
+<body>
     <main id="contact" class="page">
-    <header>  
-        
-        <form class="Cformulario" method="post">
-            <p> Agende um Horário</p>
 
-            <div class="Cfield">
-               seu nome <label for="nome"></label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
-            </div>
+        <div class="page-header">
+            <header>
+                <h1>
+                    <span>Agende a</span>
+                    SUA VISITA
+                </h1>
+            </header>
+            <hr />
+        </div>
 
-            <div class="Cfield">
-                <label for="telefone">Seu Telefone:</label>
-                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
-            </div>
+        <section>
+            <form class="Cformulario" method="post">
 
-            <div class="Cfield1">
-                <label for="datetime">Marque o seu dia:</label>
-                <input type="datetime-local" id="datetime" name="datetime" required>
-            </div>
+                <p> Agende um Horário</p>
 
-            <div>
-                <select required="required" name="Barbeiro">
-                    <option selected="selected" value="">Barbeiro</option>
-                    <option value="1">Marcio</option>
-                    <option value="2">Ralfe</option>
-                    <option value="3">Andreia</option>
-                    <option value="4">Joaquin</option>
-                    <option value="5">Fernanda</option>
-                    <option value="6">Suelen</option>
-                </select>
-            </div>
-                <div class="Cpage"></div>
-            <div class="Cfield">
-                
-                <label for="mensagem">Sua mensagem:</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-            </div>
+                <div class="Cfield">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite Seu Nome*" required>
+                </div>
 
-            <input type="submit" name="acao" value="Enviar">
-        </form>
-</body>
+                <div class="Cfield">
+                    <label for="telefone">Seu Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </div>
 
-</html>
-</section>
-</header>
+                <div class="Cfield">
+                    <label for="datetime-local">Dia e Horário da Beleza:</label>
+                    <input type="datetime-local" id="datetime-local" name="datetime-local" required>
+                </div>
 
-</div>
+                <div class="Cfield">
+                    <label for="Barbeiro">Barbeiro:</label>
+                    <select id="Barbeiro" name="Barbeiro">
+                        <option selected="selected" value=""></option>
+                        <option value="1">Marcio</option>
+                        <option value="2">Ralfe</option>
+                        <option value="3">Andreia</option>
+                        <option value="4">Joaquin</option>
+                        <option value="5">Fernanda</option>
+                        <option value="6">Suelen</option>
+                    </select>
 
-</main>
+                </div>
+
+                <div class="Cfield">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </div>
+
+                <input type="submit" name="ação" value="Enviar">
+            </form>
+
+        </section>
+
+        <div class="Cpage"></div>
+
+    </main>
+
 </body>
 
 </html>

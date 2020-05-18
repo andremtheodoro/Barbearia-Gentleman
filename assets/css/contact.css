@@ -1,7 +1,47 @@
+
+#contact.page {
+    flex-direction: column;
+}
+#contact.page header {
+    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(0.5); */
+    color: var(--white);
+}
+
+#contact.page .page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact.page .page-header h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 150px 0 10px 20px;
+    font-size: 3em;
+    line-height: .7em;    
+}
+
+#contact.page .page-header h1 span{
+    margin: 0;
+    font-size: .5em;
+    font-weight: normal;
+}
+
+#contact.page .page-header hr {
+    margin: 0;
+    width: 100%;
+    height: 5px;
+    border:none;
+    border-radius: 0;
+    background-color: var(--orange)
+}
 .Cformulario{
     width: 400px;
     padding: 30px;
-    border:1px solid #131515;
+    
     border-radius: 5px;
     position: absolute;
     float: left;
@@ -10,17 +50,13 @@
     width: 100%;
     font-size: 1.5em;
 }
-.Cfield, .Cfield1, .Cfield2,select{
+.Cfield {
     width: 100%;
     margin: 15px 0;
 }
 .Cfield label, 
-.Cfield span,
-.Cfield1 label,
-.Cfield1 span
-.Cfield2 span,
-.Cfield2 label,
-select{
+.Cfield span
+ {
     padding-left: 10px;
     font-size: 1.1em;
     display: inline;
@@ -28,21 +64,18 @@ select{
 }
 
 input[type=text],
-input[type=email],
-textarea{
+input[type=datetime-local],
+input[type=tel],
+textarea, select{
     width: 100%;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid #cd6900;
+    border: 1px solid var(--orange);
     outline: none;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ea15c3fc6d64fe4932c61bc3302d65e142d09244
 textarea {
     line-height: 20px;
     padding: 10px;
@@ -51,7 +84,7 @@ textarea {
 }
 input[type=submit]{
     display: block;
-    background-color: #ccc;
+    background-color: var(--gray);
     height: 35px;
     border: none;
     outline: 0;
@@ -61,22 +94,15 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
-.Cfield1, .Cfield2,select {
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #cd6900;
-    outline: none;
-    display: block;;
-}
+
     .Cpage {
     background-image: url('/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash.jpg');
     background-size: cover;
-    background-position: right;
-    width: 100%;
-    height: 5em;
+    position: relative;
+    right: 0%;
+    width: 50%;
+    height: 90%;
     justify-content: flex-end;
-    }
+    
+}
     
