@@ -14,25 +14,25 @@
 
 
 @media (min-width:576px) {
-    #gallery.page .page-header {
-        background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
-
+    #gallery.page .images {
+        flex-direction: column;
+       
     }
  
 }
 
 @media (min-width: 992px) {
     
-    #gallery.page .page-header {
-        background-image: url('/assets/images/photos/tow-black-hair-clippers-1570806.jpg');
+     #gallery.page .page-header {
         background-position: 0px -15vw;
         background-size: cover;
-        }
+        } 
 
     #gallery.page .images {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 20px;
 
     }
 
