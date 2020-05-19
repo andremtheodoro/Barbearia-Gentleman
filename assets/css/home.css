@@ -1,8 +1,8 @@
 
-#home.page {
+#home.home-page {
     flex-direction: column;
 }
-#home.page header {
+#home.home-page header {
     background-image: url("/assets/images/photos/several-scissors-1319460.jpg");
     background-size: cover;
     background-position: center;
@@ -11,13 +11,13 @@
     min-height: 80vh;
 }
 
-#home.page .page-header {
+#home.home-page .home-header {
     display: flex;
     flex-direction: column;
     
 }
 
-#home.page .page-header h1 {
+#home.home-page .home-header h1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,14 +30,14 @@
     text-shadow: black 2px 3px 5px;    
 }
 
-#home.page .page-header h1 span{
+#home.home-page .home-header h1 span{
     margin: 0;  
     font-size: .4em;
     color: var(--white);
     font-weight: normal;
 }
 
-#home.page .page-header hr {
+#home.home-page .home-header hr {
     margin: 0;
     width: 100%;
     height: 5px;
@@ -46,7 +46,7 @@
     background-color: var(--orange)
 }
 
-#home.page .our-history  {
+#home.home-page .our-history  {
     background-image: linear-gradient(var(--black), var(--grey)), url("/assets/images/photos/kamile-leo-wKo5Rzv0_aM-unsplash.jpg");
     background-size: cover;
     background-position: left;
@@ -54,7 +54,7 @@
     color: var(--white);
 }
 
-#home.page .text {
+#home.home-page .text {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -62,7 +62,7 @@
 
 }
 
-#home.page .text h2 {
+#home.home-page .text h2 {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -70,26 +70,26 @@
     font-size: 2em;   
 }
 
-#home.page .our-history .text p {
+#home.home-page .our-history .text p {
     padding: 5px;
     margin-right: 15px;
     font-size: 1.2em;
     color: var(--grey);
 }
 
-#home.page .testimonials {
+#home.home-page .testimonials {
     display: flex;
     flex-direction: column  ;
     background-color: var(--bg-testimonials);
     color: var(--white);
 }
 
-#home.page .testimonials .text {
+#home.home-page .testimonials .text {
     margin: 0;
 }
 
 
-#home.page .testimonials .text h2 {
+#home.home-page .testimonials .text h2 {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -98,14 +98,14 @@
     color: var(--orange);
 }
 
-#home.page .testimonials .testimonial-list {
+#home.home-page .testimonials .testimonial-list {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 20px 40px 70px 40px;
 }
 
-#home.page .testimonials .testimonial-list li {
+#home.home-page .testimonials .testimonial-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,37 +116,37 @@
     margin: 40px 0;
 }
 
-#home.page .testimonials .testimonial-list li img {
+#home.home-page .testimonials .testimonial-list li img {
     margin-top: -70px;
     width: 110px;
     height: 110px;
     border-radius: 100px;
 }
 
-#home.page .testimonials .testimonial-list li p {
+#home.home-page .testimonials .testimonial-list li p {
     margin: 5px;
     font-size: 1.2em;
     line-height: 1em;
 }
 
-#home.page .testimonials .testimonial-list li p span {
+#home.home-page .testimonials .testimonial-list li p span {
     padding-left: 10px;
     border-radius: 10px;
     font-weight: bold;
 }
 
 @media (min-width: 576px) {
-    #home.page .page-header h1 {
+    #home.home-page .page-header h1 {
         font-size: 4em;
         line-height: .7em;
     }
     
-    #home.page .page-header h1 span{  
+    #home.home-page .page-header h1 span{  
         font-size: .4em;
     }
 
 
-    #home.page .testimonials .testimonial-list {
+    #home.home-page .testimonials .testimonial-list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -154,7 +154,7 @@
         justify-content: center;
     }
 
-    #home.page .testimonials .testimonial-list li {
+    #home.home-page .testimonials .testimonial-list li {
         margin: 40px 20px;
         max-width: 40%;
     }
@@ -162,47 +162,47 @@
 
 @media (min-width: 992px) {
 
-    #home.page .page-header h1 {
+    #home.home-page .page-header h1 {
         font-size: 5em;
         line-height: .7em;
     }
     
-    #home.page .page-header h1 span{  
+    #home.home-page .page-header h1 span{  
         font-size: .4em;
     }
 
-    #home.page .text {
+    #home.home-page .text {
         padding: 70px;
     }
         
-    #home.page .text h2 {
+    #home.home-page .text h2 {
         font-size: 3em;   
     }
 
-    #home.page .our-history .text p {
+    #home.home-page .our-history .text p {
         font-size: 1.5em;
     }
 
-    #home.page .testimonials .text h2 {
+    #home.home-page .testimonials .text h2 {
         font-size: 3em;
     }
 
-    #home.page .testimonials .testimonial-list li p {
+    #home.home-page .testimonials .testimonial-list li p {
         font-size: 1.2em;
         line-height: 1em;
     }
 
-    #home.page .testimonials .testimonial-list {
+    #home.home-page .testimonials .testimonial-list {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
 
-    #home.page .testimonials .testimonial-list li {
+    #home.home-page .testimonials .testimonial-list li {
         margin: 40px 20px;
     }
 
-    #home.page .testimonials .testimonial-list li img {
+    #home.home-page .testimonials .testimonial-list li img {
         margin-top: -70px;
         width: 130px;
         height: 130px;
@@ -211,28 +211,28 @@
 }
 
 @media (min-width: 1200px) {
-    #home.page .page-header h1 {
+    #home.home-page .page-header h1 {
         font-size: 6em;
         line-height: .7em;
     }
     
-    #home.page .page-header h1 span{  
+    #home.home-page .page-header h1 span{  
         font-size: .4em;
     }
 
-    #home.page .text h2 {
+    #home.home-page .text h2 {
         font-size: 3.5em;   
     }
 
-    #home.page .our-history .text p {
+    #home.home-page .our-history .text p {
         font-size: 2em;
     }
 
-    #home.page .testimonials .text h2 {
+    #home.home-page .testimonials .text h2 {
         font-size: 3.5em; 
     }
 
-    #home.page .testimonials .testimonial-list li p {
+    #home.home-page .testimonials .testimonial-list li p {
         font-size: 1.7em;
         line-height: 1em;
     }
