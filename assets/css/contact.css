@@ -165,10 +165,7 @@ form button {
             background-color: var(--light);
         }
 
-        #contact.page .contacts li {
-            border: var(--black50) 1px solid;
-            color: var(--black50);
-        }
+        
     }
 
 
