@@ -136,21 +136,21 @@ form button {
     }
 
     #contact.page > section {
-        flex-direction: row;
+        display: flex;
     }
 
      .Cformulario p {
-        /* Distribua a largura automaticamente */
+        
         flex: 1;
     }    
 
     #contact.page .contacts li {
-        /* para deixar os ícones desgrudados */
+        
         margin-right: 1em;
     }
 
     #contact.page .contacts li:last-child {
-        /* no último ícone, o espaço foi demais, retire somente do último */
+       
         margin-right: 0;
     }
 
