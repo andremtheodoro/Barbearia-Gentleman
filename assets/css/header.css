@@ -114,10 +114,6 @@
         outline: none;
     }
 
-    hr {
-        display: none;
-    }
-
     #header #logo {
         width: 140px;
         position: absolute;
