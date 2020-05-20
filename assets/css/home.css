@@ -136,12 +136,12 @@
 }
 
 @media (min-width: 576px) {
-    #home.home-page .page-header h1 {
+    #home.home-page .home-header h1 {
         font-size: 4em;
         line-height: .7em;
     }
     
-    #home.home-page .page-header h1 span{  
+    #home.home-page .home-header h1 span{  
         font-size: .4em;
     }
 
@@ -162,12 +162,12 @@
 
 @media (min-width: 992px) {
 
-    #home.home-page .page-header h1 {
+    #home.home-page .home-header h1 {
         font-size: 5em;
         line-height: .7em;
     }
     
-    #home.home-page .page-header h1 span{  
+    #home.home-page .home-header h1 span{  
         font-size: .4em;
     }
 
@@ -211,12 +211,12 @@
 }
 
 @media (min-width: 1200px) {
-    #home.home-page .page-header h1 {
+    #home.home-page .home-header h1 {
         font-size: 6em;
         line-height: .7em;
     }
     
-    #home.home-page .page-header h1 span{  
+    #home.home-page .home-header h1 span{  
         font-size: .4em;
     }
 
