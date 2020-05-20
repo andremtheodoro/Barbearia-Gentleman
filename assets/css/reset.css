@@ -54,7 +54,7 @@ body {
     height: 12px;
     border:none;
     border-radius: 0;
-    background-color: var(--orange)
+    background-color: var(--orange);
 }
 
 @media (min-width: 576px) {

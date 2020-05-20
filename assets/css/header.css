@@ -24,14 +24,8 @@
         align-items: center;
     }
 
-    hr {
-        width: 100%;
-        margin: 0;
-        height: 18px;
-        border: none;
-        position: absolute;
-        bottom: 0;
-        z-index: 1;
+    hr  {
+        display: none;
     }
 
     #header .menu {
@@ -48,10 +42,15 @@
     }
 
     #header .menu ul {
-        margin: 50px 0 0 0;
+        margin: 0 0 0 40px;
         padding: 0;
         width: 100%;
         flex-direction: column;
+    }
+
+    div #uls {
+        flex-direction: column;
+        margin-top: 20vh;
     }
 
     #header .menu ul li {
@@ -119,24 +118,18 @@
         outline: none;
     }
 
+    hr {
+        display: none;
+    }
+
     #header #logo {
-        width: 200px;
+        width: 140px;
         position: absolute;
         transition: all 1s ease-in-out;
-        right: calc(50vw - 80px);
+        right: calc(50vw - 70px);
         top: 15px;
         z-index: 5;
         align-items: center;
-    }
-
-    hr {
-        width: 100%;
-        margin: 0;
-        height: 18px;
-        border: none;
-        position: absolute;
-        bottom: 0;
-        z-index: 1;
     }
 
     #header .menu {
@@ -152,8 +145,17 @@
         justify-content: center;
     }
 
+    div #uls {
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+
+    ul #ul1 {
+        margin: 0;
+    }
+
     #header .menu ul {
-        margin: 50px 0 0 0;
+        margin: 7px 0 0 90px;
         padding: 0;
         width: 100%;
         flex-direction: column;
@@ -169,7 +171,7 @@
     #header .menu ul li a {
         text-decoration: none;
         color: var(--white);
-        font-size: 2.5em;
+        font-size: 3em;
         line-height: 5vh;
     }
 
@@ -206,17 +208,17 @@
     .open-menu #header #logo {
         left: initial;
         min-width: 245px;
-        right: 13vw;
+        right: 11vw;
     }
+
 }
 
 @media (min-width: 1200px) {
     #header {
-        height: 200px;
-        background-position: 0px -201px;
+        height: 250px;
+        background: none;
+        position: absolute;
     }
-
-    
 
     #header .menu #logo {
         max-width: 130px;
@@ -229,11 +231,22 @@
         display: none;
     }
 
-    #header .menu ul {
+    #header .menu {
         width: 100%;
         height: initial;
         background-color: initial;
         position: static;
+        right: initial;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 200px;
+    }
+
+    #header .menu ul {
+        width: 100%;
+        height: initial;
+        background-color: initial;
+        position: relative;
         right: initial;
         display: flex;
         flex-direction: row;
@@ -248,9 +261,19 @@
         color: var(--white);
     }
 
-    #header .menu a {
+    #header .menu ul li a {
         text-decoration: none;
         color: var(--white);
         font-size: 40px;
     } 
+
+    #header .menu #uls #ul1 {
+        top: 8vh;
+        left: -8vw;
+    }
+
+    #header .menu #uls #ul2 {
+        top: -2vh;
+        right: -34vw;
+    }
 } 
