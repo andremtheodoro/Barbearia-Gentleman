@@ -23,15 +23,7 @@
         z-index: 5;
         align-items: center;
     }
-<<<<<<< HEAD
-
-    hr  {
-        display: none;
-    }
-
-=======
     
->>>>>>> 4f96134349255e6fb04911f9ec81d11937b9546e
     #header .menu {
         transition: right 0.5s ease-in-out;
         width: 300px;
