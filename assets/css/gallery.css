@@ -3,6 +3,12 @@
     flex-direction: column;
 }
 
+#gallery.page .images picture:hover {
+   
+    opacity: 0.5;
+    transition: opacity .35s;
+}
+
 #gallery.page .images img {
     width: 100%;
 }
