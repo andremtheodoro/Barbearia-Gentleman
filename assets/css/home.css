@@ -8,7 +8,7 @@
     background-position: center;
     /* filter: brightness(0.5); */
     color: var(--white);
-    min-height: 80vh;
+    min-height: 88vh;
 }
 
 #home.home-page .home-header {
@@ -127,6 +127,10 @@
     margin: 5px;
     font-size: 1.2em;
     line-height: 1em;
+}
+
+#home.home-page .testimonials .testimonial-list li p.coment {
+    padding-top: 15px;
 }
 
 #home.home-page .testimonials .testimonial-list li p span {

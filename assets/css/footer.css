@@ -112,7 +112,7 @@
         color: var(--white);
         flex-direction: column;
         padding: 2em;
-        min-width: 767px;
+        
        
     }
 }
