@@ -86,6 +86,7 @@ details[open]
     list-style: none;
     color: var(--white);
     outline: none;
+    transition: ease-in-out .3s;
 }
 
 #services.page .description {
