@@ -21,10 +21,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 20px;
+        align-items: center;
+        justify-content: center;
     }
     
     #gallery.page .images img {
-        width: 48vw;
+        width: 46vw;
         margin-bottom: 20px;
         margin-left: 10px;
     }
@@ -47,7 +49,7 @@
     }
 
     #gallery.page .images img {
-        width: 32vw;
+        width: 31vw;
         margin-bottom: 20px;
         margin-left: 10px;
     }
