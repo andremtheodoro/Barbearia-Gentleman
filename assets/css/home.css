@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin-top: 90px;
     padding: 0;
     font-size: 3em;
     line-height: .9em;
@@ -143,6 +143,7 @@
     #home.home-page .home-header h1 {
         font-size: 4em;
         line-height: .7em;
+        margin-top: 120px;
     }
     
     #home.home-page .home-header h1 span{  
@@ -169,6 +170,7 @@
     #home.home-page .home-header h1 {
         font-size: 5em;
         line-height: .7em;
+        margin-top: 150px;
     }
     
     #home.home-page .home-header h1 span{  
@@ -218,6 +220,7 @@
     #home.home-page .home-header h1 {
         font-size: 6em;
         line-height: .7em;
+        margin-top: 250px;
     }
     
     #home.home-page .home-header h1 span{  
