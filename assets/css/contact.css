@@ -109,11 +109,22 @@ form button {
     width: 40px;
     height: 75px;
 }
-.Cpage {
-    flex-direction: row;
-}
 
 
+@media (min-width: 576px) {
+    .Csection {
+        display: flex;
+        flex-direction: column;
+    }
+    .Cimg {
+        display: flex;
+        width: 40px;
+        height: 75px;
+        margin-top: 1px;
+    }
+    .Cimg img {
+        width: 100%;
+    }
 
 @media (min-width: 992px) {
     /* .Cimg {
