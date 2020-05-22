@@ -78,6 +78,12 @@ form button {
     display: none;
 }
 
+#contact section #map {
+    background-image: url('/assets/images/photos/map.JPG');
+    height: 236px;
+    width: 100%;
+}
+
 @media (min-width:576px) {
     .Cimg {
         background-image: url(/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash@2.png);
