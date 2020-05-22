@@ -3,11 +3,6 @@
     flex-direction: column;
 }
 
-#gallery.page .images picture:hover {
-   
-    opacity: 0.5;
-    transition: opacity .35s;
-}
 
 #gallery.page .images img {
     width: 100%;
@@ -20,10 +15,12 @@
 
 
 @media (min-width:576px) {
+
     #gallery.page .images {
         flex-direction: column;
        
     }
+    
  
 }
 
@@ -46,6 +43,11 @@
         width: 32vw;
         margin-bottom: 20px;
         margin-left: 10px;
+    }
+
+    #gallery.page .images picture:hover {
+        opacity: 0.5;
+        transition: opacity .35s;
     }
 
     h1 {

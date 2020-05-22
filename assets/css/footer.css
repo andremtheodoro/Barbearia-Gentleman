@@ -6,7 +6,6 @@
     color: var(--white);
     flex-direction: column;
     padding: 2em;
-    bottom: 100px;
    
 }
 
@@ -89,7 +88,6 @@
 }
 
 #footer p {
-    position: initial;
     font-size: 17px;
     margin-top: 20px;
     margin-left: 10px;
@@ -119,8 +117,6 @@
         background-size: cover;
         color: var(--white);
         flex-direction: column;
-        margin-bottom: 200px;
-      
 
     }
 
@@ -152,8 +148,7 @@
     
     #footer .links {
      display: flex; 
-     /* margin-right: 100px; */
-    
+     
     }
 
 
@@ -185,147 +180,204 @@
     #footer .network a{
         margin-left: 90px;
     
-    }
-
-    #footer a img.logo {
-        margin-top: 60px;
-        align-self: center;
-        height: 200px;
-        filter: opacity(0.6);
-        
-    }
-     #footer p {
-    align-self: center;
-    } 
-
-    
-   
-    
-} 
-
-@media (min-width: 992px) {
-    #footer {
-        width: 100%;
-        position: relative;
-        background-image: url('/assets/images/index/andi-whiskey-Mz_BqbdUDH0-unsplash2.jpg');
-        background-size: cover;
-        color: var(--white);
-        flex-direction: column;
-        margin-bottom: 200px;
-        /* padding-bottom: 15em; */
-
-    }
-
-    
-     #footer button {
-        position: absolute;
-        right: 15px;
-        background: var(--white);
-        color: var(--black);
-        box-shadow: var(--black) 0 3px 6px;
-        border-radius: 50%;
-        margin-top: -5.5em;
-        z-index: 1;
-        cursor: pointer;
-    }  
-    
-    
-    #footer button:hover {
-        background-color: var(--white);
-    }
-    
-    
-    #footer .columns {
-     flex-direction: row;
-     font-size: 1.5em;
-     display: flex;
-     align-items: flex-start;
-    }
-    
-    #footer .links {
-     display: flex; 
-     /* margin-right: 100px; */
-    
-    }
-
-
-    #footer .columns ul li.titles{
-        flex-direction: column;
-        font-weight: bold;
-        
-    }
-
-    #footer .columns ul li.title {
-        flex-direction: column;
-        margin-left: 100px;
-        font-weight: bold;
-    }
-    #footer .columns .links a {
-       color: var(--white);
-       text-decoration: none;
-       cursor: pointer;
-    }
-
-
-    #footer ul li.email {
-        flex-direction: column;
-        margin-left: 100px;
-        margin-bottom: 10px;
-        
-    }
-
-    #footer .network a{
-        margin-left: 90px;
-    
-    }
-
-    #footer a img.logo {
-        margin-top: 60px;
-        align-self: center;
-        height: 200px;
-        filter: opacity(0.6);
-        
-    }
-     #footer p {
-    align-self: center;
-    } 
-
- 
-} 
-
-
-/* @media (min-width: 1200px) {
-    #footer {
-        padding-bottom: 0;
-    }
-
-    #footer .columns {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #footer .links {
-        display: initial;
-        display: flex;
-    }
-
-    #footer li {
-        font-size:14px;
-        font-weight: 300;
-    }
-
-    #footer .links a:hover {
-        color: var(--white);
     }
 
     #footer p {
-        font-size: 14px;
+        align-self: center;
+    
+       }
+
+
+   
+    #footer a img.logo {
+        margin-top: 60px;
+        align-self: center;
+        height: 200px;
+        filter: opacity(0.6);
+       
+        
     }
 
-    #fotter .down {
-         display: flex;
-        margin-left: 300px;
-    }
-      
 
-} */
+    
+} 
+
+ @media (min-width: 992px) {
+    #footer {
+        background-image: url('/assets/images/index/andi-whiskey-Mz_BqbdUDH0-unsplash2.jpg');
+        max-height: 320px; 
+        background-size: cover;
+        background-position: center;
+        color: var(--white);
+    }
+
+    
+      #footer button {
+        display: none;
+    }  
+    
+        
+     #footer .columns {
+     flex-direction: row;
+     font-size: 1.5em;
+     display: flex;
+     height: 0;
+    }  
+
+    
+     #footer ul.links {
+     align-self: flex-start;
+    
+    } 
+
+
+
+    #footer .columns ul li.titles{
+        flex-direction: column;
+        font-weight: bold;
+        
+    }
+
+    #footer .columns ul li.title {
+        display: none;
+    }
+    #footer .columns .links a {
+       color: var(--white);
+       text-decoration: none;
+       cursor: pointer;
+    }
+
+
+    #footer ul li.email {
+        flex-direction: column;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        
+    } 
+     #footer > a {
+    align-self: flex-end;
+    margin: -12px;
+    margin-top: -51px;
+    } 
+
+    #footer .network {
+    position: relative;
+   
+    }
+
+     #footer .network a{
+        margin-left: 90px;
+    
+    } 
+
+    #footer .network img {
+        position: absolute;
+        margin: 8px 0px 0px 0px;
+        height: 54px;
+        padding: 0;
+        filter: opacity(0.7);
+    }
+
+     #footer a img.logo {
+        align-self: flex-end;
+        height: 200px;
+        filter: opacity(0.6);
+        
+    }
+     #footer p {
+    align-self: center;
+    }  
+
+ 
+}  
+
+
+@media (min-width: 1200px) {
+    #footer {
+        background-image: url('/assets/images/index/andi-whiskey-Mz_BqbdUDH0-unsplash2.jpg');
+        max-height: 320px; 
+        background-size: cover;
+        background-position: center;
+        color: var(--white);
+    }
+
+    
+      #footer button {
+        display: none;
+    }  
+    
+        
+     #footer .columns {
+     flex-direction: row;
+     font-size: 1.5em;
+     display: flex;
+     height: 0;
+    }  
+
+    
+     #footer ul.links {
+     align-self: flex-start;
+    
+    } 
+
+
+
+    #footer .columns ul li.titles{
+        flex-direction: column;
+        font-weight: bold;
+        
+    }
+
+    #footer .columns ul li.title {
+        display: none;
+    }
+    #footer .columns .links a {
+       color: var(--white);
+       text-decoration: none;
+       cursor: pointer;
+    }
+
+
+    #footer ul li.email {
+        flex-direction: column;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        
+    } 
+     #footer > a {
+    align-self: flex-end;
+    margin: -12px;
+    margin-top: -51px;
+    } 
+
+    #footer .network {
+    position: relative;
+   
+    }
+
+     #footer .network a{
+        margin-left: 90px;
+    
+    } 
+
+    #footer .network img {
+        position: absolute;
+        margin: 8px 0px 0px 0px;
+        height: 54px;
+        padding: 0;
+        filter: opacity(0.7);
+    }
+
+     #footer a img.logo {
+        align-self: flex-end;
+        height: 210px;
+        filter: opacity(0.6);
+        margin-right: 20px;
+        
+    }
+     #footer p {
+    align-self: center;
+    }  
+
+
+} 
