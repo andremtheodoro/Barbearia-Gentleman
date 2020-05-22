@@ -2,17 +2,8 @@
     flex-direction: column;
 }
 
-#contact.page header {
-    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.png");
-    background-size: cover;
-    background-position: center;
-    /* filter: brightness(0.5); */
-    color: var(--white);
-}
-
-
-
 .Cformulario {
+    width: 100%;
     padding: 30px;
     border-radius: 5px;
     position: relative;
@@ -78,21 +69,18 @@ form button {
     display: none;
 }
 
-#contact section #map {
-    background-image: url('/assets/images/photos/map.JPG');
-    height: 236px;
-    width: 100%;
-}
-
 @media (min-width:576px) {
-    .Cimg {
-        background-image: url(/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash@2.png);
-        background-position: center;
+
+    .Cformulario {
+        width: 490px;
     }
+
     .Cimg {
         display: flex;
-        width: 40vw;
-        margin-top: 1px;
+        width: 40%;
+        background-image: url("/assets/images/photos/alexandre-lecocq-Y5nIFhQlzlo-unsplash@2.png");
+        background-size: cover;
+        background-position: center;
         flex: 1;
         overflow: hidden;
     }
@@ -105,14 +93,13 @@ form button {
 
 @media (min-width: 992px) {
     .Cformulario {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
+        width: 50%;
+        padding: 30px;
         border-radius: 5px;
         position: relative;
     }
     .Cformulario p {
-        width: 70%;
+        width: 100%;
         font-size: 1.5em;
         font-weight: bold;
     }
@@ -125,10 +112,5 @@ form button {
         padding-left: 10px;
         font-size: 1.1em;
         width: 150px;
-    }
-    .Cimg {
-       
-        flex-direction: row-reverse;
-        
     }
 }

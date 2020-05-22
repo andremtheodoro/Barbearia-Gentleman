@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 .page header {
-    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg");
+    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.png");
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -70,6 +70,11 @@ body {
 }
 
 @media (min-width: 992px) {
+
+    .page header {
+        background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash@2.png");
+    }
+
     .page .page-header h1 {
         padding: 150px 0 15px 40px;
         font-size: 4em;

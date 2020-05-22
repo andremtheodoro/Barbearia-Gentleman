@@ -204,6 +204,21 @@
 
 }
 
+@media (max-height:580px) {
+    .open-menu #header .menu {
+        right: 0;
+        justify-content: flex-end;
+        padding-bottom: 10vh;
+    }
+
+    .open-menu #header #logo {
+        left: initial;
+        right: 160px;
+        width: 100px;
+    }
+
+}
+
 
     
 @media (min-width: 992px) {

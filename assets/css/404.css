@@ -3,8 +3,7 @@
     flex-direction: column;
     padding: 80px 0;
     align-items: flex-end;
-    /* background-image: url('/assets/images/photos/imagens png/arthur-humeau-pu20JkUx--A-unsplash.png'); */
-    background-image: url('/assets/images/photos/several-scissors-1319460.png');
+    background-image: url('/assets/images/photos/arthur-humeau-pu20JkUx--A-unsplash.png');
     background-size: cover;
 }
 .error-message_container img {
@@ -37,11 +36,6 @@
         }
     }
     @media (min-width: 992px) {
-
-        .error-message_container {
-            /* background-image: url('/assets/images/photos/imagens png/arthur-humeau-pu20JkUx--A-unsplash.png'); */
-            background-image: url('/assets/images/photos/several-scissors-1319460@2.png');
-        }
 
             .error-message_container h1 {
             padding-right: 40px;
