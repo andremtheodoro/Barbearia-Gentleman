@@ -50,7 +50,7 @@
         transition: opacity .35s;
     }
 
-    h1 {
+    #gallery h1 {
         color: var(--white);
     }
 
