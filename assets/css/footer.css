@@ -45,7 +45,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 300px;
+    /* width: 300px; */
 }
 
 #footer ul li .title{
@@ -117,11 +117,6 @@
         background-size: cover;
         color: var(--white);
         flex-direction: column;
-<<<<<<< HEAD
-        
-      
-=======
->>>>>>> 96b89c7a28fd0385335076c09e0e7d32ce4b3597
 
     }
 
@@ -149,6 +144,7 @@
      font-size: 1.5em;
      display: flex;
      align-items: flex-start;
+     justify-content: space-between;
     }
     
     #footer .links {
@@ -165,7 +161,7 @@
 
     #footer .columns ul li.title {
         flex-direction: column;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         font-weight: bold;
     }
     #footer .columns .links a {
@@ -177,13 +173,13 @@
 
     #footer ul li.email {
         flex-direction: column;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         
         
     }
 
     #footer .network a{
-        margin-left: 90px;
+        /* margin-left: 90px; */
     
     }
 
@@ -224,11 +220,15 @@
         
      #footer .columns {
      flex-direction: row;
+     justify-content: start;
      font-size: 1.5em;
      display: flex;
      height: 0;
     }  
 
+    #footer ul {
+        width: 300px;
+    }
     
      #footer ul.links {
      align-self: flex-start;

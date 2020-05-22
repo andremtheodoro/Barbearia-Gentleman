@@ -224,22 +224,12 @@ details[open]
 
 @media (min-width: 992px) {
 
-    /* #services.page .page-header h1 {
-        padding: 150px 0 15px 40px;
-        font-size: 4em;
-        line-height: .7em;    
-    }
-    
-    #services.page .page-header h1 span{
-        font-size: .6em;
-    } */
-
     details[open] {
-        height: 220px;
+        height: 230px;
     }
 
     #services.page .service-details {
-        height: 170px;
+        height: 180px;
     }
 
     #services.page .services {
@@ -262,13 +252,5 @@ details[open]
 }
 
 @media (min-width: 1200px) {
-    /* #services.page .page-header h1 {
-        padding: 130px 0 15px 60px;
-        font-size: 4.5em;
-        line-height: .7em;    
-    }
     
-    #services.page .page-header h1 span{
-        font-size: .6em;
-    } */
 }

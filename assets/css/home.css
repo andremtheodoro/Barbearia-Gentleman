@@ -166,6 +166,9 @@
 }
 
 @media (min-width: 992px) {
+    #home.home-page header {
+        min-height: 91vh;
+    }
 
     #home.home-page .home-header h1 {
         font-size: 5em;
@@ -217,6 +220,11 @@
 }
 
 @media (min-width: 1200px) {
+
+    #home.home-page header {
+        min-height: 98vh;
+    }
+
     #home.home-page .home-header h1 {
         font-size: 6em;
         line-height: .7em;

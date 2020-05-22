@@ -15,10 +15,10 @@
     }
 
     #header #logo {
-        width: 160px;
+        width: 140px;
         position: absolute;
         transition: all 1s ease-in-out;
-        right: calc(50vw - 80px);
+        right: calc(50vw - 70px);
         top: 15px;
         z-index: 5;
         align-items: center;
@@ -95,7 +95,7 @@
 
     .open-menu #header #logo {
         left: initial;
-        right: 20vw;
+        right: 70px;
     }
 
 @media (min-width: 576px) {
@@ -199,15 +199,14 @@
 
     .open-menu #header #logo {
         left: initial;
-        min-width: 245px;
-        right: 11vw;
+        right: 145px;
     }
 
 }
 
 
     
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     #header {
         height: 250px;
         background: none;
@@ -221,6 +220,11 @@
         align-items: center;
     }
 
+    #header #logo {
+        width: 140px;
+        right: calc(50vw - 45px);
+    }
+
     #btn-open, #btn-close {
         display: none;
     }
@@ -232,8 +236,10 @@
         position: static;
         right: initial;
         flex-direction: row;
-        justify-content: space-between;
-        margin-left: 200px;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 20px;
+        /* margin-left: 200px; */
     }
 
     #header .menu ul {
@@ -248,9 +254,10 @@
         align-items: center;
     }
 
-    #header .menu li {
+    #header .menu ul li {
         flex: 1;
-        min-width: 150px;
+        padding: 14px 20px;
+        /* min-width: 150px; */
         list-style: none;
         color: var(--white);
     }
@@ -261,13 +268,26 @@
         font-size: 40px;
     } 
 
+    div #uls {
+        flex-direction: row;
+        margin-top: 2vh;
+    }
+
+    #uls ul li {
+        padding: 14px;
+    }
+
     #header .menu #uls #ul1 {
-        top: 8vh;
-        left: -8vw;
+        margin: 0;
+        margin-right: 90px;
+        /* top: 8vh;
+        left: -8vw; */
     }
 
     #header .menu #uls #ul2 {
-        top: -2vh;
-        right: -34vw;
+        margin: 0;
+        margin-left: 90px;
+        /* top: -2vh;
+        right: -34vw; */
     }
 } 

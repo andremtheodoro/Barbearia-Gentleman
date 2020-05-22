@@ -17,10 +17,17 @@
 @media (min-width:576px) {
 
     #gallery.page .images {
-        flex-direction: column;
-       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
     }
     
+    #gallery.page .images img {
+        width: 48vw;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
  
 }
 
@@ -84,7 +91,7 @@
         margin-left: 10px;
     }
 
-    h1 {
+    #gallery.page h1 {
         color: var(--white);
     }
 
