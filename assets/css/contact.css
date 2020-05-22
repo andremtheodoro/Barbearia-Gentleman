@@ -3,13 +3,13 @@
 }
 
 #contact.page header {
-    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg");
+    background-image: url("/assets/images/photos/andi-whiskey-Mz_BqbdUDH0-unsplash.png");
     background-size: cover;
     background-position: center;
     /* filter: brightness(0.5); */
     color: var(--white);
 }
-
+a
 #contact.page .Cpage-header {
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
 }
 
 .Cformulario {
-    width: 400px;
+    width: 400%;
     padding: 30px;
     border-radius: 5px;
     position: relative;
@@ -109,10 +109,25 @@ form button {
     width: 40px;
     height: 75px;
 }
-.Cpage {
-    flex-direction: row;
+.Cimg {
+    display: flex;
+    position: relative;
+    width: 40px;
 }
 
+@media (min-width:576px) {
+    .Csection {
+        display: flex;
+        flex-direction: row;
+    }
+    .Cimg {
+        display: flex;
+        width: 40%;
+        margin-top: 1px;
+        flex: 1;
+    }
+       
+    }
 
 
 @media (min-width: 992px) {

@@ -119,7 +119,7 @@
         background-size: cover;
         color: var(--white);
         flex-direction: column;
-        margin-bottom: 200px;
+        
       
 
     }
@@ -178,7 +178,7 @@
     #footer ul li.email {
         flex-direction: column;
         margin-left: 100px;
-        margin-bottom: 10px;
+        
         
     }
 
