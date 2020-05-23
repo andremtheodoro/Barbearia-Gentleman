@@ -3,10 +3,9 @@
     flex-direction: column;
 }
 #home.home-page header {
-    background-image: url("/assets/images/photos/several-scissors-1319460.jpg");
+    background-image: url('/assets/images/photos/several-scissors-1319460.png');
     background-size: cover;
     background-position: center;
-    /* filter: brightness(0.5); */
     color: var(--white);
     min-height: 88vh;
 }
@@ -166,7 +165,9 @@
 }
 
 @media (min-width: 992px) {
+
     #home.home-page header {
+        background-image: url('/assets/images/photos/several-scissors-1319460@2.png');
         min-height: 91vh;
     }
 
